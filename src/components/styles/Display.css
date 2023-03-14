@@ -1,0 +1,10 @@
+.Display {
+  background-color: rgb(130, 129, 129);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  color: antiquewhite;
+  letter-spacing: 8px;
+}

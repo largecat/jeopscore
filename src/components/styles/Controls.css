@@ -1,0 +1,67 @@
+.Controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.control-buttons {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  background-color: grey;
+}
+
+.control-buttons > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.control-buttons > .controlBtn {
+  background-color: rgb(82, 96, 202);
+  border: 1px solid rgb(202, 197, 197);
+  padding: 5px;
+  min-height: 35px;
+  margin: auto;
+}
+
+.undoBtn:active {
+  background-color: rgb(152, 184, 152);
+  color: rgb(219, 85, 85);
+}
+
+.pointBtns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pointAmt {
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgb(25, 24, 24);
+  cursor: pointer;
+}
+
+.pointAmt:hover {
+  background-color: rgb(110, 154, 140);
+}
+
+.plusPointBtns,
+.minusPointBtns {
+  width: 100%;
+  background-color: rgb(180, 107, 107);
+
+  border-bottom: 1px solid antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plusPointBtns {
+  width: 100%;
+  background: rgb(37, 103, 127);
+}
